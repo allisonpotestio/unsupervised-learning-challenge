@@ -4,7 +4,7 @@
 This challenge involved analyzing the file crypto_market_data.csv using the K means and PCA methods of unsupervised learning.
 The data is cleaned using pandas and loaded into these models
 An elbow curve is created for each of these processes to determine the number of clusters for each analysis.
-By comparing the elbow curves and clusters, I determined that the K means model allowed us to more effectively analyze the data, since this data set did not lend itself to creating more clusters.
+By comparing the elbow curves and clusters, I determined that the PCA model allowed us to more effectively analyze the data, since this created more logical clusters.
 
 # dependencies
 Python libraries- pandas, hvplot, sklearn 
